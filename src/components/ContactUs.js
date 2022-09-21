@@ -3,9 +3,17 @@ import React from "react";
 
 export default function ContactUs(){
     return(
-        // <>
-        <div>Contact Us</div>
-        // <Link to = "/about"> Go about</Link>
-        // </>
+        
+        <div>
+            <h3>Contact Us</h3>
+            <p>
+                Oulu University of Applied Sciences,
+                Yliopistokatu-9, 901300, Oulu
+            </p>
+            <p>
+                Department of Engineering Information Technology
+            </p>
+        </div>
+        
     )
 }

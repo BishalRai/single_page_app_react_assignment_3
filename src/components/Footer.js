@@ -4,7 +4,7 @@ export default function Footer(){
     return(
         <footer className="footer">
             <div className="container">
-                <span>Please sticky footer here</span>
+                <span>FOOTER SECTION</span>
             </div>
         </footer>
        
