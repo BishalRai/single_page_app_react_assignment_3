@@ -7,17 +7,17 @@ export default function Navbar(){
             <div class="container-fluid">
                 <Link className='navbar-brand' to='/'>KIRATI</Link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse">
-                    <span class= "navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class = "nav-item">
+                        <li class ="nav-item">
                             <Link className="nav-link" to='/'>Home</Link>
                         </li>
-                        <li class = "nav-item">
+                        <li class ="nav-item">
                             <Link className="nav-link" to='/about'>About</Link>
                         </li>
-                        <li class = "nav-item">
+                        <li class ="nav-item">
                             <Link className="nav-link" to='/ContactUs'>Contact Us</Link>
                         </li>
                     </ul>
